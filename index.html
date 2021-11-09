@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="js/jquery.formstyler.css" rel="stylesheet" />
+    <link href="js/jquery.formstyler.theme.css" rel="stylesheet" />
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>CleanPro</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand b-nav-logo" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler b-nav-toggle" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon b-nav-menu"></span>
+                </button>
+                <ul class="nav">
+                    <li class="nav-item b-nav-item">
+                        <a class="nav-link b-nav-link" href="#">О КОМПАНИИ</a>
+                    </li>
+                    <li class="nav-item b-nav-item">
+                        <a class="nav-link b-nav-link" href="#">УСЛУГИ</a>
+                    </li>
+                    <li class="nav-item b-nav-item">
+                        <a class="nav-link b-nav-link" href="#">ПРОЕКТЫ</a>
+                    </li>
+                    <li class="nav-item b-nav-item">
+                        <a class="nav-link b-nav-link" href="#">КАРЬЕРА</a>
+                    </li>
+                    <li class="nav-item b-nav-item">
+                        <a class="nav-link b-nav-link" href="#">КОНТАКТЫ</a>
+                    </li>
+                    <li class="nav-item b-nav-item m-0 b-phone-number">
+                        <a class="b-nav-link" href="">
+                            <img src="images/phone-call-icon.png" alt="">8-800-222-07-36 <br>
+                            <p>Бесплатный звонок по России</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="b-main-content">
+            <div class="container">
+
+                <div class="row b-row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                        <div class="b-all-points">
+                            <div class="b-points">
+                                <div class="b-points-info"><div class="b-points-info-text">ФИЛЬТР</div> </div>
+                                <div class="b-point-title one">
+                                   <div class="b-points-title-text">ПО ОТРАСЛИ<i class="fas fa-angle-down"></i></div>  
+                                    <!-- <i class="fas fa-angle-right"></i> -->
+                                </div>
+    
+                                <div class="b-important b-form">
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Авиационная промышленость <sup>10</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Автомобильная промышленость <sup>2</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Государственные заказчики <sup>33</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Дистрибуция <sup>2</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Добывающая промышленость <sup>1</sup>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-points-puncts">
+                                    <a href="" class="b-points-toggle one" id="open-close">Показать все пункты</a>
+                                </div>
+                                <div class="b-checkbox-item none one">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                                <div class="b-checkbox-item none one">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                                <div class="b-checkbox-item none one">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-points">
+                                <div class="b-point-title two">
+                                   <div class="b-points-title-text">ПО РЕШЕНИЮ <i class="fas fa-angle-down" id="active-angle"></i></div> 
+                                    <!-- <i class="fas fa-angle-right"></i> -->
+                                </div>
+                                <div class="b-form two">
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Автоматизация производственных <div class="b-checkbox-item-title-text">процессов <sup>3</sup></div>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Аутсорсинг ИТ <sup>4</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Банковские системы <sup>2</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Внедрение бизнес-приложений <div class="b-checkbox-item-title-text">и систем <sup>37</sup></div>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Добывающая промышленость <sup>1</sup>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-points-puncts">
+                                    <a href="" data-text-after="Скрыть все пункты" data-text-before="Показать все пункты"  class="b-points-toggle two">Показать все пункты</a>
+                                </div>
+                                <div class="b-checkbox-item none two">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                                <div class="b-checkbox-item none two">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                                <div class="b-checkbox-item none two">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="b-points">
+                                <div class="b-point-title three">
+                                  <div class="b-points-title-text">ПО КЛИЕНТУ<i class="fas fa-angle-down three"></i></div>   
+                                    <!-- <i class="fas fa-angle-right"></i> -->
+                                </div>
+                                <div class="b-form three">
+                                    <div class="b-checkbox-item">
+                                        <!-- <i class="fas fa-check"></i> -->
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Администрации субъектов РФ <sup>11</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            АС-Бюро <sup>1</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Валио <sup>1</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Вертолеты России <sup>3</sup>
+                                        </div>
+                                    </div>
+                                    <div class="b-checkbox-item">
+                                        <input type="checkbox">
+                                        <div class="b-checkbox-item-title">
+                                            Добывающая промышленость <sup>1</sup>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-points-puncts">
+                                    <a href="" class="b-points-toggle three">Показать все пункты</a>
+                                </div>
+                                <div class="b-checkbox-item none three">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                                <div class="b-checkbox-item none three">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                                <div class="b-checkbox-item none three">
+                                    <input type="checkbox">
+                                    <div class="b-checkbox-item-title">
+                                        Добывающая промышленость <sup>1</sup>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                        <div class="dividor"></div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div class="b-description-item">
+                                    <img src="images/desc-img.png" alt="Фотография окрасочного цеха">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                <div class="b-description-item-info">
+                                    <h1>ОБСЛУЖИВАНИЕ ОКРАСОЧНЫХ ПРОИЗВОДСТВ</h1>
+                                    <p>
+                                        Группа компаний «Клининг Эксперт» за время своей работы достигла высокого <br>
+                                        профессионализма в очистке современных окрасочных производств
+                                    </p>
+                                    
+                                    <div class="b-description-item-info-text">
+                                        Окрасочный цех на автомобилестроительных заводах является одним из ключевых <br>
+                                        производств, от которого зависит внешний вид и антикорозийная защита выпускаемых <br>
+                                        автомобилей. Компании осуществляющие обслуживание окрасочных цехов, должны <br>
+                                        отвечать высоким требованиям относительно применяемых технологий, технического <br>
+                                        оснащения, компетентности сотрудников, профессионализма, оперативности при <br>
+                                        выполнении работ и многого др
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="b-description-item-info-subtitle">
+                                    <div class="b-description-item-info-subtitle-text">
+                                        <p>
+                                            Наша компания осуществляет обслуживание окрасочных производств более 14 лет. За 
+                                            это время мы хорошо изучили красочное производство, проблемы и нюансы, 
+                                            возникающие при его обслуживании, научились их предупреждать и оперативно решать 
+                                        </p>
+                                        <p>
+
+                                            Транслируя полученный нами опыт, на новых объектах мы применяем собственные 
+                                            экономически выгодные технологии, собственные химические средства под решение 
+                                            конкретных задач, находим ранее не выявленные проблемы и предлагаем варианты их 
+                                            решения
+                                        </p>
+                                        <p>
+                                            Нашей задачей является постоянное усовершенствование технологий очистки, rb
+                                            оптимизация стоимости услуг
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="b-description-media">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                    <div class="b-description-media-item">
+                                        <img src="images/des-media-1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                    <div class="b-description-media-item">
+                                        <img src="images/des-media-2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                    <div class="b-description-media-item">
+                                        <img src="images/des-media-3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="b-about">
+                                        <div class="b-about-title">
+                                            <p>
+                                                Сегодня наша компания является лидером в России по обслуживанию
+                                                автомобилестроительных производств, работающих на территории РФ.
+                                            </p>
+                                        </div>
+                                        <div class="b-about-item">
+                                            <div class="b-about-item-subtitle">
+                                                Специалисты нашей компании имеют весь необходимый опыт и компетенции для
+                                                осуществления комплекса клининговых работ,среди которых:
+                                            </div>
+                                            <div class="b-about-item-content">
+                                                <ul>
+                                                    <li>
+                                                        Очистка агрегата подготовки поверхности кузова, включая
+                                                        оборудование, конвеера, погружные ванны;
+                                                    </li>
+                                                    <li>
+                                                        Очистка линии нанесения катафореза, состоящей из ванны катафореза и
+                                                        сушильной камеры катафореза;
+                                                    </li>
+                                                    <li>
+                                                        Очистка камер шлифовки грунта;
+                                                    </li>
+                                                    <li>
+                                                        Очистка камер нанесения противошумной и шовной мастики;
+                                                    </li>
+                                                    <li>
+                                                        Очистка камер полировки и сушки вторичного грунта;
+                                                    </li>
+                                                    <li>
+                                                        Очистка камер нанесения и сушки базовой эмали;
+                                                    </li>
+                                                    <li>
+                                                        Очистка камер нанесения и сушки лака;
+                                                    </li>
+                                                    <li>
+                                                        Очистка участка полировки, доработки финишного слоя, участка оценки
+                                                        качества;
+                                                    </li>
+                                                    <li>
+                                                        Очистка сопутствующих участков: оборудования и конструкций
+                                                        приточно-вытяжной вентиляции;
+                                                    </li>
+                                                    <li>
+                                                        Очистка участков ремонта;
+                                                    </li>
+                                                    <li>
+                                                        Очистка транспортировочных скидов;
+                                                    </li>
+                                                    <li>
+                                                        Очистка напольных решеток и технологической оснастки.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="b-application">
+            <div class="container">
+                <div class="b-application-title">
+                    <div class="b-application-title-text">оставьте заявку</div>
+                    <p>
+                        И получите консультацию по всем интересующим <br> Вас вопросам со специалистом
+                    </p>
+                </div>
+                <div class="b-app-form">
+                    <form class="b-application-form">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="b-application-form-fontuser">
+                                    <input type="text" class="form-control" placeholder="Ваше имя">
+                                    <i class="fas fa-user-alt"></i>
+                                  </div>
+                            </div>
+                         <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="b-application-form-fontpassword">
+                                <input type="number" class="form-control" placeholder="Ваш телефон">
+                                <i class="fas fa-phone"></i>
+                              </div>
+                         </div>
+                         <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                             <div class="b-application-form-btn">
+                                 <button type="submit" class="b-application-form-btn-link">заказать звонок</button>
+                             </div>
+                             
+                         </div>
+                         
+                        </div>
+                      </form>
+                </div>
+                  
+                <!-- <div class="b-application-form d-flex">
+                    <div class="b-application-form-fontuser">
+                        <input type="text" placeholder="Ваше имя">
+                        <i class="fas fa-user-alt"></i>
+                    </div>
+                    <div class="b-application-form-fontpassword">
+                        <input type="number" placeholder="Ваш телефон">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="b-application-form-btn">
+                        <a href="" ">заказать звонок</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="dividor-footer"></div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="b-about-company d-flex">
+                        <div class="b-about-company-item">
+                            <a href="" class="b-about-company-logo">
+                                <img src="images/logo-footer.png" alt="">
+                            </a>
+                        </div>
+                        <div class="b-about-company-title">
+                            <div class="b-about-company-title-text">Многопрофильная <br> клининговая компания</div>
+                            <p>© 2001-2018 <br> OOO "Клининг Эксперт"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="b-footer-text">
+                        <div class="b-footer-nav d-flex">
+                            <div class="b-footer-nav-item">
+                                <a href="" class="b-footer-nav-link">Контекстная реклама</a>
+                            </div>
+                            <div class="b-footer-nav-item">
+                                <a href="" class="b-footer-nav-link">Карта сайта</a>
+                            </div>
+                        </div>
+
+
+                        <div class="b-footer-nav-text">
+                            <div class="b-footer-nav-text-text">
+                                Все права защищены. Любое копирование материалов запрещено. <br>
+                                При согласовании использования материалов с данного сайта ссылка на ресурс обязательна.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+        integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

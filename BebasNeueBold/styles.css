@@ -1,0 +1,101 @@
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('BebasNeueBold.eot?#iefix') format('embedded-opentype'),  url('BebasNeueBold.otf')  format('opentype'),
+	     url('BebasNeueBold.woff') format('woff'), url('BebasNeueBold.ttf')  format('truetype'), url('BebasNeueBold.svg#BebasNeueBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+font-family: 'Open Sans', sans-serif;
+
+@font-face { font-family: 'BebasNeueBold'; src: url('/css/webfont/BebasNeueBold.eot?#iefix') format('embedded-opentype'), url('/css/webfont/BebasNeueBold.otf') format('opentype'), url('/css/webfont/BebasNeueBold.woff') format('woff'), url('/css/webfont/BebasNeueBold.ttf') format('truetype'), url('/css/webfont/BebasNeueBold.svg#BebasNeueBold') format('svg'); font-weight: normal; font-style: normal; }
+
+
+
+
+
+
+
+
+
+
+<i class="fas fa-angle-down"></i>\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div><input class="ckeckboxStyler" type="checkbox">Авиационная промышленость <sup>10</sup> </div>
+<div><input class="ckeckboxStyler" type="checkbox">Автомобильная промышленость <sup>2</sup> </div>
+<div><input class="ckeckboxStyler" type="checkbox">Государственные заказчики <sup>33</sup></div> 
+<div><input class="ckeckboxStyler" type="checkbox">Дистрибуция <sup>2</sup> </div>
+<div><input class="ckeckboxStyler" type="checkbox">Добывающая промышленость <sup>1</sup></div>
+
+
+<div><input class="ckeckboxStyler" type="checkbox" id="lala">Автоматизация производственных <div> процессов <sup>3</sup></div> </div>
+<div><input class="ckeckboxStyler" type="checkbox">Аутсорсинг ИТ <sup>4</sup></div>
+<div><input class="ckeckboxStyler" type="checkbox">Банковские системы <sup>2</sup></div>
+<div><input class="ckeckboxStyler" type="checkbox">Внедрение бизнес-приложений <div>и систем <sup>37</sup></div> </div>
+<div><input class="ckeckboxStyler" type="checkbox">Добывающая промышленость <sup>1</sup></div>
+
+<div><input class="ckeckboxStyler" type="checkbox">Администрации субъектов РФ <sup>11</sup></div>  
+<div><input class="ckeckboxStyler" type="checkbox" checked>АС-Бюро <sup>1</sup></div> 
+<div><input class="ckeckboxStyler" type="checkbox">Валио <sup>1</sup> </div>
+<div><input class="ckeckboxStyler" type="checkbox">Вертолеты России <sup>3</sup> </div> 
+<div><input class="ckeckboxStyler" type="checkbox">Добывающая промышленость <sup>1</sup></div>
+
+
+<i class="fas fa-user-alt"></i>
+
+.Rectangle_17 {
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.412);
+  opacity: 0.341;
+  position: absolute;
+  left: 425px;
+  top: 1995px;
+  width: 358px;
+  height: 48px;
+  z-index: 151;
+}
+
+
+.Ваше_имя {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgba(255, 255, 255, 0.722);
+  line-height: 1.786;
+  text-align: left;
+  position: absolute;
+  left: 470.937px;
+  top: 2011.498px;
+  z-index: 152;
+}
