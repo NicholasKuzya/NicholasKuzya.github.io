@@ -177,7 +177,7 @@ header {
             position: absolute;
             top: 0;
             left: 0;
-            width: 44%;
+            width: 100%;
             height: 100%;
             opacity: 0;
 
@@ -219,7 +219,7 @@ header {
             position: absolute;
             top: 0;
             left: 0;
-            width: 44%;
+            width: 100%;
             height: 100%;
             opacity: 0;
 
@@ -633,12 +633,21 @@ footer {
 @media(max-width: 992px)
 {
     header
-    {
+    {   
+        .navbar-light .navbar-toggler
+        {
+            border: none;
+        }
+        .navbar-light .navbar-toggler-icon
+        {
+            background-image: url(../images/mobile-menu-button.png);
+        }
             & nav
             {
                     & .b-nav-item
                     {
                         text-align: center;
+                        margin-left: 0;
                     }
             }
     }
@@ -650,6 +659,8 @@ footer {
                 & p
                 {
                     font-size: 14px;
+                    padding-left: 15px;
+                    padding-right: 15px;
                 }
         }
         & .b-about-item-subtitle
@@ -670,7 +681,15 @@ footer {
 }
 .b-application
 {   
+
     margin-top: 35px;
+        & .b-application-form
+        {
+            & .b-application-form-fontpassword
+            {
+                margin: 15px 0;
+            }
+        }
         & .b-application-title
         {
                 & .b-application-title-text
@@ -684,7 +703,8 @@ footer {
         }
 }
 footer
-{
+{       
+        padding-bottom: 30px;
         & .b-footer-text
         {
                 & .b-footer-nav

@@ -142,7 +142,7 @@ header nav .b-phone-number p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 44%;
+  width: 100%;
   height: 100%;
   opacity: 0;
 }
@@ -179,7 +179,7 @@ header nav .b-phone-number p {
   position: absolute;
   top: 0;
   left: 0;
-  width: 44%;
+  width: 100%;
   height: 100%;
   opacity: 0;
 }
@@ -477,12 +477,21 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
   }
 }
 @media (max-width: 992px) {
+  header .navbar-light .navbar-toggler {
+    border: none;
+  }
+  header .navbar-light .navbar-toggler-icon {
+    background-image: url(../images/mobile-menu-button.png);
+  }
   header nav .b-nav-item {
     text-align: center;
+    margin-left: 0;
   }
 }
 .b-about .b-about-title p {
   font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .b-about .b-about-item-subtitle {
   font-size: 16px;
@@ -494,6 +503,9 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
 .b-application {
   margin-top: 35px;
 }
+.b-application .b-application-form .b-application-form-fontpassword {
+  margin: 15px 0;
+}
 .b-application .b-application-title .b-application-title-text {
   font-size: 40px;
 }
@@ -501,6 +513,9 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
   font-size: 16px;
 }
 
+footer {
+  padding-bottom: 30px;
+}
 footer .b-footer-text .b-footer-nav {
   margin-left: auto;
 }
