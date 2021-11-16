@@ -22,9 +22,11 @@
 }
 
 header {
-    background-image: url(../images/header-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #0841ac;
+                & .navbar-toggler:focus
+                {
+                    box-shadow: none;
+                }
     nav {
         & .b-nav-logo {
             & img {
@@ -35,7 +37,7 @@ header {
         & .b-nav-item {
             font-family: "Open Sans", sans-serif;
             margin-top: 20px;
-            margin-left: 40px;
+            margin-left: 30px;
         }
         & .b-nav-link {
             color: #fff !important;
@@ -586,19 +588,32 @@ footer {
         max-width: 1199px;
         min-width: 992px;
     }
+}
+@media (max-width: 1150px)
+{
     header
     {
         & nav
         {
             & .b-nav-item
             {
-                margin-left: 10px;
+                margin-left: 30px;
+
+                        & .b-nav-link
+                        {
+                            font-size: 14px;
+                        }
             }
+            & .b-phone-number
+            {
+                & .b-nav-link
+                {
+                    font-size: 20px;
+                }
+            }
+
         }
     }
-}
-@media (max-width: 1150px)
-{
     
     .b-points 
     {   
@@ -648,6 +663,13 @@ footer {
                     {
                         text-align: center;
                         margin-left: 0;
+                    }
+                    & .b-phone-number 
+                    {
+                            p
+                            {
+                                text-align: center;
+                            }
                     }
             }
     }
@@ -716,7 +738,7 @@ footer {
         {
             & .b-application-form-fontpassword
             {
-                margin: 15px 0;
+
             }
         }
         & .b-application-title
@@ -794,6 +816,13 @@ footer
                 {
                     font-size: 14px;
                 }
+        }
+        & .b-application-form
+        {
+            & .b-application-form-fontpassword
+            {
+                margin: 15px 0;
+            }
         }
     }
     footer

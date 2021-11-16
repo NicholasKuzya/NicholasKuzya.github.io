@@ -12,9 +12,11 @@
   font-style: normal;
 }
 header {
-  background-image: url(../images/header-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #0841ac;
+}
+header .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 header nav .b-nav-logo img {
   height: 67px;
@@ -23,7 +25,7 @@ header nav .b-nav-logo img {
 header nav .b-nav-item {
   font-family: "Open Sans", sans-serif;
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 header nav .b-nav-link {
   color: #fff !important;
@@ -456,12 +458,18 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
     max-width: 1199px;
     min-width: 992px;
   }
-
-  header nav .b-nav-item {
-    margin-left: 10px;
-  }
 }
 @media (max-width: 1150px) {
+  header nav .b-nav-item {
+    margin-left: 30px;
+  }
+  header nav .b-nav-item .b-nav-link {
+    font-size: 14px;
+  }
+  header nav .b-phone-number .b-nav-link {
+    font-size: 20px;
+  }
+
   .b-points .b-checkbox-item-title {
     font-size: 13px;
   }
@@ -486,6 +494,9 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
   header nav .b-nav-item {
     text-align: center;
     margin-left: 0;
+  }
+  header nav .b-phone-number p {
+    text-align: center;
   }
 }
 .b-points .b-checkbox-item-title {
@@ -516,9 +527,6 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
 
 .b-application {
   margin-top: 35px;
-}
-.b-application .b-application-form .b-application-form-fontpassword {
-  margin: 15px 0;
 }
 .b-application .b-application-title .b-application-title-text {
   font-size: 40px;
@@ -557,6 +565,9 @@ footer .b-about-company .b-about-company-item .b-about-company-logo::after {
   }
   .b-application .b-application-title p {
     font-size: 14px;
+  }
+  .b-application .b-application-form .b-application-form-fontpassword {
+    margin: 15px 0;
   }
 
   footer .b-footer-text .b-footer-nav-text {
