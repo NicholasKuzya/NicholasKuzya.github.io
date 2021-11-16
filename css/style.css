@@ -34,7 +34,7 @@ header nav .b-nav-link {
   font-size: 16px;
 }
 header nav .b-nav-link:hover {
-  color: #cbcbcb;
+  color: #cbcbcb !important;
 }
 header nav .b-phone-number .b-nav-link {
   text-decoration: none;
