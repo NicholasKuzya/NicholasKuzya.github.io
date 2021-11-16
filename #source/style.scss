@@ -128,21 +128,29 @@ header {
         & .open {
             display: none;
         }
+        & .active
+        {
+            transform: rotate(-90deg);
+            transition: all .5s;
+        }
     }
     & .b-point-title.one {
         & i {
             margin-top: 7px;
             margin-left: 50% !important;
+            transition: all .5s;
         }
     }
     & .b-point-title.two {
         & i {
             margin-left: 45% !important;
+            transition: all .5s;
         }
     }
     & .b-point-title.three {
         & i {
             margin-left: 50% !important;
+            transition: all .5s;
         }
     }
 

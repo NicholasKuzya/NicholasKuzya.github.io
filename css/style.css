@@ -110,15 +110,27 @@ header nav .b-phone-number p {
 .b-points .b-point-title .open {
   display: none;
 }
+.b-points .b-point-title .active {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
 .b-points .b-point-title.one i {
   margin-top: 7px;
   margin-left: 50% !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .b-points .b-point-title.two i {
   margin-left: 45% !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .b-points .b-point-title.three i {
   margin-left: 50% !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .b-points .b-form {
   margin-top: 15px;

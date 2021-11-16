@@ -22,6 +22,14 @@ $(document).ready(function () {
     });
 
 });
+$(document).ready(function () {
+
+    $('.b-points .b-point-title i').click(function () {
+        $(this).toggleClass('active').next().slideToggle();
+        $('.b-point-title.three').not(this).removeClass('active').next().slideUp();
+    });
+
+});
 
 $(document).ready(function () {
     $('.b-points-toggle.one').click(function () {
