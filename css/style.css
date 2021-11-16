@@ -12,7 +12,9 @@
   font-style: normal;
 }
 header {
-  background-color: #0841ac;
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 header .navbar-toggler:focus {
   -webkit-box-shadow: none;
@@ -41,9 +43,9 @@ header nav .b-phone-number .b-nav-link {
   color: #fff !important;
 }
 header nav .b-phone-number img {
-  margin-right: 15px;
+  margin-left: 20px;
   height: 21px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 header nav .b-phone-number p {
   color: #a2b1da;
@@ -491,6 +493,10 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
   }
 }
 @media (max-width: 992px) {
+  header {
+    background-color: #0841ac;
+    background-image: none;
+  }
   header .navbar-light .navbar-toggler {
     border: none;
   }

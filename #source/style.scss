@@ -22,7 +22,9 @@
 }
 
 header {
-    background-color: #0841ac;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
     & .navbar-toggler:focus {
         box-shadow: none;
     }
@@ -54,9 +56,9 @@ header {
             }
 
             & img {
-                margin-right: 15px;
+                margin-left: 20px;
                 height: 21px;
-                margin-bottom: 8px;
+                margin-bottom: 10px;
             }
             & p {
                 color: #a2b1da;
@@ -636,6 +638,8 @@ footer {
 }
 @media (max-width: 992px) {
     header {
+                background-color: #0841ac;
+                background-image: none;
         .navbar-light .navbar-toggler {
             border: none;
         }
