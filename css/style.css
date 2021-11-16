@@ -92,12 +92,6 @@ header nav .b-phone-number p {
   line-height: 26px;
   background-color: #f8f8f8;
 }
-.b-points .b-point-title.one i,
-.b-points .b-point-title.two i,
-.b-points .b-point-title.three i {
-  margin-top: 7px;
-  margin-left: 130px;
-}
 .b-points .b-point-title {
   margin-top: 3px;
   border: 1px #e4e4e4 solid;
@@ -118,13 +112,13 @@ header nav .b-phone-number p {
 }
 .b-points .b-point-title.one i {
   margin-top: 7px;
-  margin-left: 135px;
+  margin-left: 50% !important;
 }
 .b-points .b-point-title.two i {
-  margin-left: 120px;
+  margin-left: 45% !important;
 }
 .b-points .b-point-title.three i {
-  margin-left: 136px;
+  margin-left: 50% !important;
 }
 .b-points .b-form {
   margin-top: 15px;
@@ -454,7 +448,10 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
 }
 
 @media (min-width: 992px) {
-  .container, .container-lg, .container-md, .container-sm {
+  .container,
+.container-lg,
+.container-md,
+.container-sm {
     max-width: 1199px;
     min-width: 992px;
   }
@@ -470,18 +467,15 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
     font-size: 20px;
   }
 
-  .b-points .b-checkbox-item-title {
-    font-size: 13px;
-  }
   .b-points .b-point-title.one i {
     margin-top: 7px;
-    margin-left: 80px;
+    margin-left: 40% !important;
   }
   .b-points .b-point-title.two i {
-    margin-left: 65px;
+    margin-left: 33% !important;
   }
   .b-points .b-point-title.three i {
-    margin-left: 81px;
+    margin-left: 40% !important;
   }
 }
 @media (max-width: 992px) {
@@ -501,16 +495,6 @@ footer .b-footer-text .b-footer-nav-text .b-footer-nav-text-text {
 }
 .b-points .b-checkbox-item-title {
   font-size: 13px;
-}
-.b-points .b-point-title.one i {
-  margin-top: 7px;
-  margin-left: 73%;
-}
-.b-points .b-point-title.two i {
-  margin-left: 70%;
-}
-.b-points .b-point-title.three i {
-  margin-left: 73%;
 }
 
 .b-about .b-about-title p {
@@ -570,22 +554,16 @@ footer .b-about-company .b-about-company-item .b-about-company-logo::after {
     margin: 15px 0;
   }
 
+  .b-points .b-checkbox-item-title {
+    font-size: 13px;
+  }
+
   footer .b-footer-text .b-footer-nav-text {
     margin-left: 0;
   }
 }
-@media (max-width: 456px) {
+@media (max-width: 476px) {
   .b-points .b-checkbox-item-title {
     font-size: 13px;
-  }
-  .b-points .b-point-title.one i {
-    margin-top: 7px;
-    margin-left: 50%;
-  }
-  .b-points .b-point-title.two i {
-    margin-left: 45%;
-  }
-  .b-points .b-point-title.three i {
-    margin-left: 50%;
   }
 }
