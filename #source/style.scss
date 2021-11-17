@@ -20,7 +20,10 @@
     font-weight: normal;
     font-style: normal;
 }
-
+.y-mobile
+{
+    display: none;
+}
 header {
     background-image: url(../images/header-bg.png);
     background-repeat: no-repeat;
@@ -37,7 +40,6 @@ header {
         }
         & .b-nav-item {
             font-family: "Open Sans", sans-serif;
-            margin-top: 20px;
             margin-left: 30px;
         }
         & .b-nav-link {
@@ -651,6 +653,15 @@ footer {
                 text-align: center;
                 margin-left: 0;
             }
+            .n-mobile
+            {
+                display: none;
+            }
+            .y-mobile
+            {
+                display: block;
+                text-align: center;
+            }
             & .b-phone-number {
                 p {
                     text-align: center;
@@ -683,7 +694,8 @@ footer {
 .b-about {
     & .b-about-title {
         & p {
-            font-size: 14px;
+            font-size: 20px;
+            line-height: 28px;
             padding-left: 15px;
             padding-right: 15px;
         }
